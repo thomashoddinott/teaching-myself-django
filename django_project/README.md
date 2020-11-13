@@ -49,5 +49,29 @@ If we add `admin.site.register(Post)` to `admin.py` we gain access to admin tool
 
 ![django-admin-posts](readme-img/django-admin-posts.PNG)
 
+---
+
+**lesson 6 - User Registration Form**
+
+create new `users` app `python .\manage.py startapp users`
+
+add it to `INSTALLED_APPS` in settings.py
+
+`form.save()` is all we need to add the user in our login. Django takes care of everything.
+
+https://django-crispy-forms.readthedocs.io/en/latest/
+
+*django-crispy-forms provides you with a `|crispy` filter and `{% crispy %}` tag that will let you control the rendering behavior of your [Django](http://djangoproject.com) forms in a very elegant and DRY way. Have full control without writing  custom form templates. All this without breaking the standard way of  doing things in [Django](http://djangoproject.com), so it plays nice with any other form application.*
+
+needs to be added to `INSTALLED_APPS` in settings.py again
+
+^ Bit annoying, `npm install` or `yarn add` automatically add to `package.json`
+
+---
+
+
+
+
+
 
 
